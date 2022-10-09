@@ -253,7 +253,7 @@ export default class App extends Component {
                   onClick={this.resetGame}
                   sx={{
                     backgroundColor: this.state.winGameEnd
-                      ? 'darkslategray'
+                      ? 'darkslategrey'
                       : '#800040',
                     '&:disabled': {
                       color: '#555',

@@ -27,7 +27,7 @@ const DarkToolTip = styled(({ className, ...props }) => (
 
 const MoviesDiv = styled('div')({
     borderRadius: '0.25em',
-    color: 'darkslategray',
+    color: 'darkslategrey',
     display: "flex",
     flexDirection: "column",
     justifyContent: "space-between",
@@ -74,24 +74,40 @@ const radioSx = {
 }
 
 export default function Movies(props) {
-    const assignBackgroundColor = () => {
+    const displayMoviesBackgroundColor = () => {
         if (props.dataFetched && !props.winGameEnd) {
             return '#ffdea6';
-        } else if (props.winGameEnd) {
+        }
+
+        if (props.winGameEnd) {
             return 'darkseagreen';
         }
 
         return '#777';
     }
 
-    const assignBorderColor = () => {
+    const displayMoviesBorderColor = () => {
         if (props.dataFetched && !props.winGameEnd) {
             return '#03a9f4';
-        } else if (props.winGameEnd) {
+        }
+
+        if (props.winGameEnd) {
             return 'darkseagreen';
         }
 
         return '#808080';
+    }
+
+    const moviesDivBackgroundColor = () => {
+        if (props.dataFetched && !props.winGameEnd) {
+            return 'rgba(255, 239, 213,0.7)';
+        }
+
+        if (props.winGameEnd) {
+            return 'linear-gradient(to top right, #8fbc8f, #8fbc8f, #8fbc8f)';
+        }
+
+        return 'lightslategrey';
     }
 
     const displayMoviesArrayChoices = () => {
@@ -102,8 +118,8 @@ export default function Movies(props) {
                     key={index}
                     label={value.Title}
                     sx={{
-                        backgroundColor: `${assignBackgroundColor()}`,
-                        border: `0.1em outset ${assignBorderColor()}`,
+                        backgroundColor: `${displayMoviesBackgroundColor()}`,
+                        border: `0.1em outset ${displayMoviesBorderColor()}`,
                         borderRadius: '5px',
                         margin: '0.1em',
                         padding: '3px',
@@ -180,10 +196,8 @@ export default function Movies(props) {
     return (
         <MoviesDiv
             sx={{
-                backgroundColor: props.dataFetched
-                    ? 'rgba(255, 239, 213,0.7)'
-                    : 'lightslategray',
-                transition: '3s'
+                backgroundColor: `${moviesDivBackgroundColor()}`,
+                transition: '1.5s'
             }}
         >
             {displaySelectedMovieImages()}
