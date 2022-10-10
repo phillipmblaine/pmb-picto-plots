@@ -43,10 +43,10 @@
 <br /><br />
 
 ## If running locally:
-## <strong>API Keys are required for:</strong>
+* <strong>API Keys are required for:</strong>
   * <strong>OMDb API</strong>
   * <strong>Pixabay API</strong>
- ## <strong>How to acquire OMDb and Pixabay API Keys:</strong>
+## <strong>How to acquire OMDb and Pixabay API Keys:</strong>
   * (If you already have OMDb and Pixabay API keys, you may skip the API key acquisition processes)
   * <strong>For the OMDb API Key:</strong>
     * 1) On the home page of the OMDb API site (http://www.omdbapi.com/), click on the 'API Key' tab
@@ -86,7 +86,6 @@
 <br />
 
 # How to Play PictoPlots
-
 ## 1) On initial page load, please start the PictoPlots game by clicking on the blue 'Start PictoPlots!' button
 * A list of ten (10) predetermined movie titles is on display in a column of buttons
 * Of the ten (10) movie titles, one (1) movie title will be randomly selected to be the correct answer for PictoPlots once the game begins
