@@ -77,13 +77,13 @@
 * 6) With your api keys in place, it will be possible to run PictoPlots locally: in the root of the project folder pmb-picto-plots-main, open the console (can be done by opening your console: PowerShell, terminal, etc. and navigating to the root of the project folder, or also by: while the project is open in Visual Studio Code, open the console in VSC, often keyboard shortcut bound to Ctrl + `):
     * a) Run in console:
       * npm install
-      * (wait for install to finish, a nodule_modules with package install contents inside will generate in the root of the project folder)
+      * (wait for install to finish, a node_modules folder with package install contents inside will generate in the root of the project folder)
     * b) Run in console:
       * npm start
       * (development mode/build)
 * 7) A window may automatically open in your default web browser navigated to http://localhost:3000/ where you can finally try out PictoPlots!
       * (also possible to manually navigate to http://localhost:3000/ in a web browser of your choice as long as npm start was ran in console, and is still running)
-      * Running PictoPlots locally can be stopped by terminating npm start: in the console it is running from, press Ctrl+C to stop execution, and/or close out the terminal completely)
+      * (running PictoPlots locally can be stopped by terminating npm start: in the console it is running from, press Ctrl+C to stop execution, and/or close out the terminal completely)
 <br />
 
 # How to Play PictoPlots
@@ -109,7 +109,7 @@
 </div>
 <br />
 
-## 4) If your guess is incorrect, do not worry! you are welcome to guess as many times as you like
+## 4) If your guess is incorrect, do not worry! You are welcome to guess as many times as you like
 * The 'Reset Game' button below the predetermined movie title list may also be used to reload the page and start PictoPlots over
 * The 'Reset Game' button may be used at any time after the PictoPlots game begins to start over
  <div style='text-align: center'>
@@ -133,7 +133,7 @@
     * Mix and match: call plot words for two (or more) movie titles, have a guessing game for which title belongs to which image/plot word
     * Preview/explore mode: allow the player to manually select a movie in the predetermined list to check and see what the image results would be without necessarily playing the game
     * Trivia: implement trivia along with, or separately from, the plot pictures game mode as a hint system or, if separate from that mode, a guessing game for selecting the correct movie title
-* Player option to control how many pictures to have a available on load
+* Player option to control how many pictures to have available on load
 * Player option to reload a set of new pictures for the movie title that is the correct answer (perhaps pictures could be from a fresh call, could be from results stored locally, in back end database/server)
 * Possibility to filter searched pictures for mature content in case something questionable might be fetched?
 * Score tracker of correct and incorrect guess over time (stored locally, stored in back end database/server)
