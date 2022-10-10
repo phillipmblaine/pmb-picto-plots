@@ -62,28 +62,28 @@
   * 5) On the API documentation page, scroll down to Search Images->parameters->key. Your API key is listed here
         * (also accessible here: https://pixabay.com/api/docs/#api_key)
 ## How to Download PictoPlots, use your API Keys, and run PictoPlots locally
-  * 1) Download the pmb-picto-plots repository (https://github.com/phillipmblaine/pmb-picto-plots) by cloning or ZIP
-  * 2) Open the project in Visual Studio Code from the root of the project folder, pmb-picto-plots-main
-        * If downloaded by ZIP, extract the contents first, then open the project from the root of the project folder, pmb-picto-plots-main
-  * 3) In the root of the pmb-picto-plots-main folder, create a new file, .env
-  * 4) In the .env file, create two new variables:
-        * REACT_APP_OMDB_API_KEY
-        * REACT_APP_PIXABAY_API_KEY
-  * 5) Set your API keys as values to your variables (make sure to save the .env file after adding your API keys as values):
-        * REACT_APP_OMDB_API_KEY=yourOmdbApiKey
-        * REACT_APP_PIXABAY_API_KEY=youryourPixabayApiKey
-        * Your project root structure and .env file should look similar to the image below:<br /><br />
-    <img src='src/assets/picto-plots-local-setup-1.png' width='500'><br /><br />
-  * 6) With your api keys in place, it will be possible to run PictoPlots locally: in the root of the project folder pmb-picto-plots-main, open the console (can be done by opening your console: PowerShell, terminal, etc. and navigating to the root of the project folder, or also by: while the project is open in Visual Studio Code, open the console in VSC, often keyboard shortcut bound to Ctrl + `):
+* 1) Download the pmb-picto-plots repository (https://github.com/phillipmblaine/pmb-picto-plots) by cloning or ZIP
+* 2) Open the project in Visual Studio Code from the root of the project folder, pmb-picto-plots-main
+      * If downloaded by ZIP, extract the contents first, then open the project from the root of the project folder, pmb-picto-plots-main
+* 3) In the root of the pmb-picto-plots-main folder, create a new file, .env
+* 4) In the .env file, create two new variables:
+      * REACT_APP_OMDB_API_KEY
+      * REACT_APP_PIXABAY_API_KEY
+* 5) Set your API keys as values to your variables (make sure to save the .env file after adding your API keys as values):
+      * REACT_APP_OMDB_API_KEY=yourOmdbApiKey
+      * REACT_APP_PIXABAY_API_KEY=youryourPixabayApiKey
+      * Your project root structure and .env file should look similar to the image below:<br /><br />
+      <img src='src/assets/picto-plots-local-setup-1.png' width='500'><br /><br />
+* 6) With your api keys in place, it will be possible to run PictoPlots locally: in the root of the project folder pmb-picto-plots-main, open the console (can be done by opening your console: PowerShell, terminal, etc. and navigating to the root of the project folder, or also by: while the project is open in Visual Studio Code, open the console in VSC, often keyboard shortcut bound to Ctrl + `):
     * a) Run in console:
       * npm install
       * (wait for install to finish, a nodule_modules with package install contents inside will generate in the root of the project folder)
     * b) Run in console:
       * npm start
       * (development mode/build)
-  * 7) A window may automatically open in your default web browser navigated to http://localhost:3000/ where you can finally try out PictoPlots!
-        * (also possible to manually navigate to http://localhost:3000/ in a web browser of your choice as long as npm start was ran in console, and is still running)
-        * Running PictoPlots locally can be stopped by terminating npm start: in the console it is running from, press Ctrl+C to stop execution, and/or close out the terminal completely)
+* 7) A window may automatically open in your default web browser navigated to http://localhost:3000/ where you can finally try out PictoPlots!
+      * (also possible to manually navigate to http://localhost:3000/ in a web browser of your choice as long as npm start was ran in console, and is still running)
+      * Running PictoPlots locally can be stopped by terminating npm start: in the console it is running from, press Ctrl+C to stop execution, and/or close out the terminal completely)
 <br />
 
 # How to Play PictoPlots
