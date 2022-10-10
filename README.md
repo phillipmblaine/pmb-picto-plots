@@ -110,16 +110,16 @@
 <br />
 
 ## 4) If your guess is incorrect, do not worry! you are welcome to guess as many times as you like
-* The 'Reset PictoPlots' button below the predetermined movie title list may also be used to reload the page and start PictoPlots over
-* The 'Reset PictoPlots' button may be used at any time after the 'PictoPlots' game begins to start over
+* The 'Reset Game' button below the predetermined movie title list may also be used to reload the page and start PictoPlots over
+* The 'Reset Game' button may be used at any time after the PictoPlots game begins to start over
  <div style='text-align: center'>
   <img src='src/assets/how-to-play-picto-plots-4.png' width='500' />
 </div>
 <br />
 
 ## 5) If your guess is correct, you win!
-* The game ends if your answer is correct (predetermined movie title buttons become disabled, color scheme changes). You may reset the game by clicking the 'Reset PictoPlots' button to reload the page and start over
-* The 'Reset PictoPlots' button below the predetermined movie title list may also be used to reload the page and start PictoPlots over
+* The game ends if your answer is correct (predetermined movie title buttons become disabled, color scheme changes). You may reset the game by clicking the 'Reset Game' button to reload the page and start over
+* The 'Reset Game' button below the predetermined movie title list may also be used to reload the page and start PictoPlots over
 <div style='text-align: center'>
   <img src='src/assets/how-to-play-picto-plots-5.png' width='500' />
 </div>
