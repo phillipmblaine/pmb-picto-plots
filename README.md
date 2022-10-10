@@ -12,7 +12,8 @@
 - Repository: https://github.com/phillipmblaine/pmb-picto-plots
 
 ## Vercel
-### Deployment: https://vercel.com/phillipmblaine/pmb-picto-plots/39EQCCuBNFvoEWgk3KispZdFcBMq
+- Deployment: https://vercel.com/phillipmblaine/pmb-picto-plots/39EQCCuBNFvoEWgk3KispZdFcBMq
+
 ### Domains:
 - https://pmb-picto-plots.vercel.app/
 - https://pmb-picto-plots-phillipmblaine.vercel.app/
@@ -28,7 +29,7 @@
 * Each loaded picture is matched to a single word in the plot of the movie that is the correct answer
 <br /><br />
   
-### On game start, required game data is fetched:
+### On game start, required game data is fetched
 * Movie plot data: from OMDb API: -> https://www.omdbapi.com/
 * Plot picture search results: from Pixabay API -> https://pixabay.com/api/docs/
 * How data is fetched, order of data fetching:
@@ -37,16 +38,16 @@
   * 3) Pictures are displayed on front end UI once data is received
 
 # Getting Started: PictoPlots Setup
-## If running by following one of the Vercel online domain links listed above in the 'Features' section:
+## If running by following one of the Vercel online domain links listed above in the 'Features' section
 * Follow one of the domain links by clicking on one of the links to open it in a web browser, or copy/paste one of the domain links into the address bar of a web browser of your choice (Google Chrome, Mozilla Firefox, Safari, Microsoft Edge, etc.)
 * No additional setup is required: PictoPlots should be ready to play in your web browser upon loading the followed domain link's page
 <br /><br />
 
-## If running locally:
+## If running locally
 * <strong>API Keys are required for:</strong>
   * <strong>OMDb API</strong>
   * <strong>Pixabay API</strong>
-## <strong>How to acquire OMDb and Pixabay API Keys:</strong>
+## How to acquire OMDb and Pixabay API Keys
 * (If you already have OMDb and Pixabay API keys, you may skip the API key acquisition processes)
 * <strong>For the OMDb API Key:</strong>
   * 1) On the home page of the OMDb API site (http://www.omdbapi.com/), click on the 'API Key' tab
@@ -60,7 +61,7 @@
         * (also accessible here: https://pixabay.com/api/docs/)
   * 5) On the API documentation page, scroll down to Search Images->parameters->key. Your API key is listed here
         * (also accessible here: https://pixabay.com/api/docs/#api_key)
-## How to Download PictoPlots, use your API Keys, and run PictoPlots locally:
+## How to Download PictoPlots, use your API Keys, and run PictoPlots locally
   * 1) Download the pmb-picto-plots repository (https://github.com/phillipmblaine/pmb-picto-plots) by cloning or ZIP
   * 2) Open the project in Visual Studio Code from the root of the project folder, pmb-picto-plots-main
         * If downloaded by ZIP, extract the contents first, then open the project from the root of the project folder, pmb-picto-plots-main
