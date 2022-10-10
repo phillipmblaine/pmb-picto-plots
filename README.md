@@ -139,6 +139,7 @@
       * Trivia: implement trivia along with, or separately from, the plot pictures game mode as a hint system or, if separate from that mode, a guessing game for selecting the correct movie title
   * Player option to control how many pictures to have a available on load
   * Player option to reload a set of new pictures for the movie title that is the correct answer (perhaps pictures could be from a fresh call, could be from results stored locally, in back end database/server)
+  * Possibility to filter searched pictures for mature content in case something questionable might be fetched?
   * Score tracker of correct and incorrect guess over time (stored locally, stored in back end database/server)
 <br /><br />
 
@@ -149,6 +150,7 @@
     * Explore new styling options
   * Improve UI in any way possible, new ideas for UI to make it more attractive and user friendly, perhaps more lively, sound effects, animations, etc.
   * Light/Dark mode toggle
+  * Loading overlays while component is resetting, updating, initializing, data fetching
   * React npm install, node_modules: optimize build and efficiency, remove unnecessary installs/packages, address any outdated packages, warnings, etc. that may be present
   * TypeScript implementation
   * User Themes
