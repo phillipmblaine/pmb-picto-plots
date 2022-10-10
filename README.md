@@ -150,6 +150,7 @@
   * React npm install, node_modules: optimize build and efficiency, remove unnecessary installs/packages, address any outdated packages, warnings, etc. that may be present
   * Responsive interface: test support for different resolutions, mobile devices, adjustments to make the project user friendly on all devices
   * TypeScript implementation
+  * Testing, better error handling, for example if API call yields no search results/data
   * User Themes
   * Web browser compatibility: test PictoPlots across multiple browsers to ensure functionality, compatibility (Google Chrome, Mozilla Firefox, Safari, Microsoft Edge, Opera, etc.)
 <br /><br />
