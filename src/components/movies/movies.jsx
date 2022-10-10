@@ -86,30 +86,6 @@ export default function Movies(props) {
         return '#777';
     }
 
-    const displayMoviesBorderColor = () => {
-        if (props.dataFetched && !props.winGameEnd) {
-            return '#03a9f4';
-        }
-
-        if (props.winGameEnd) {
-            return 'darkseagreen';
-        }
-
-        return '#808080';
-    }
-
-    const moviesDivBackgroundColor = () => {
-        if (props.dataFetched && !props.winGameEnd) {
-            return 'rgba(255, 239, 213,0.7)';
-        }
-
-        if (props.winGameEnd) {
-            return 'linear-gradient(to top right, #8fbc8f, #8fbc8f, #8fbc8f)';
-        }
-
-        return 'lightslategrey';
-    }
-
     const displayMoviesArrayChoices = () => {
         return props.moviesArray.map((value, index) => {
             return (
@@ -148,6 +124,18 @@ export default function Movies(props) {
         });
     }
 
+    const displayMoviesBorderColor = () => {
+        if (props.dataFetched && !props.winGameEnd) {
+            return '#03a9f4';
+        }
+
+        if (props.winGameEnd) {
+            return 'darkseagreen';
+        }
+
+        return '#808080';
+    }
+
     const displaySelectedMovieImages = () => {
         if (props.gameStarted && props.selectedMovieImages.length && props.dataFetched) {
             return (
@@ -176,21 +164,48 @@ export default function Movies(props) {
                 </ImageList>
             );
         } else if (props.gameStarted && !props.selectedMovieImages.length && !props.dataFetched) {
-            return <h2>Loading ...</h2>
+            return <h2>Loading ...</h2>;
         } else {
-            return (<></>);
+            return <></>;
         }
     }
 
     const displaySelectedMovieText = () => {
         if (!props.selectedMovieImages.length) {
-            return 'Please select the correct movie below based on the pictures that load above on game start';
-        } else if (props.userSelection) {
-            return `Your Selection: ${props.userSelection}`;
+            return (
+                <ul className='listTextStyle'>
+                    <li>Please select the correct movie below based on the pictures that load on game start</li>
+                    <li>Each picture represents a single word in the correct movie's plot description</li>
+                    <li>The correct movie is one of the movies listed in the column of buttons</li>
+                </ul>
+            );
         }
-        else {
-            return 'Please select a movie';
+
+        return (
+            <ul
+                className='listTextStyle'
+                style={{
+                    background: `${props.winGameEnd
+                        ? "linear-gradient(to right, #8fbc8f, seagreen, #000)"
+                        : "linear-gradient(to right, rgb(93, 84, 149), rgb(93, 84, 149), rgb(43, 20, 77))"}`
+                }}
+            >
+                <li>{props.userSelection ? `Your Selection: ${props.userSelection}` : "Please select a movie"}</li>
+                <li>Mouse over an image to see its plot word</li>
+            </ul>
+        );
+    }
+
+    const moviesDivBackgroundColor = () => {
+        if (props.dataFetched && !props.winGameEnd) {
+            return 'rgba(255, 239, 213,0.7)';
         }
+
+        if (props.winGameEnd) {
+            return 'linear-gradient(to top right, #8fbc8f, #8fbc8f, #8fbc8f)';
+        }
+
+        return 'lightslategrey';
     }
 
     return (
@@ -202,7 +217,7 @@ export default function Movies(props) {
         >
             {displaySelectedMovieImages()}
 
-            <h3 className="moviesText">{displaySelectedMovieText()}</h3>
+            <div>{displaySelectedMovieText()}</div>
 
             <form onSubmit={props.handleAnswerSubmit}>
                 <FormControl
@@ -222,6 +237,6 @@ export default function Movies(props) {
                     </FormHelperText>
                 </FormControl>
             </form>
-        </MoviesDiv >
+        </MoviesDiv>
     )
 }
