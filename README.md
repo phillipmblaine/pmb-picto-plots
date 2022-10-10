@@ -47,19 +47,19 @@
   * <strong>OMDb API</strong>
   * <strong>Pixabay API</strong>
 ## <strong>How to acquire OMDb and Pixabay API Keys:</strong>
-  * (If you already have OMDb and Pixabay API keys, you may skip the API key acquisition processes)
-  * <strong>For the OMDb API Key:</strong>
-    * 1) On the home page of the OMDb API site (http://www.omdbapi.com/), click on the 'API Key' tab
-          * (also accessible here: http://www.omdbapi.com/apikey.aspx)
-    * 2) In the 'Generate API Key' form, select the free option ('FREE! (1,000 daily limit)'), input your email, and follow instructions to acquire your OMDb API Key
-  * <strong>For the Pixabay API Key:</strong>
-    * 1) Register for a Pixabay user account: on the home page of the Pixabay site (https://pixabay.com/), click 'Join' on the main navbar in the upper right corner to the left of the 'Upload' button. Follow the steps to create a Pixabay user account.
-    * 2) Once your user account registration is complete, login to your account
-    * 3) While logged in: on the home page of the Pixabay site (https://pixabay.com/), select 'Explore' on the main navbar in the upper right corner next to the left of the user account icon and 'Upload' button. A dropdown menu will open. Select 'API' in the dropdown menu.
-    * 4) Follow the newly loaded page to the API documentation
-          * (also accessible here: https://pixabay.com/api/docs/)
-    * 5) On the API documentation page, scroll down to Search Images->parameters->key. Your API key is listed here
-          * (also accessible here: https://pixabay.com/api/docs/#api_key)
+* (If you already have OMDb and Pixabay API keys, you may skip the API key acquisition processes)
+* <strong>For the OMDb API Key:</strong>
+  * 1) On the home page of the OMDb API site (http://www.omdbapi.com/), click on the 'API Key' tab
+        * (also accessible here: http://www.omdbapi.com/apikey.aspx)
+  * 2) In the 'Generate API Key' form, select the free option ('FREE! (1,000 daily limit)'), input your email, and follow instructions to acquire your OMDb API Key
+* <strong>For the Pixabay API Key:</strong>
+  * 1) Register for a Pixabay user account: on the home page of the Pixabay site (https://pixabay.com/), click 'Join' on the main navbar in the upper right corner to the left of the 'Upload' button. Follow the steps to create a Pixabay user account.
+  * 2) Once your user account registration is complete, login to your account
+  * 3) While logged in: on the home page of the Pixabay site (https://pixabay.com/), select 'Explore' on the main navbar in the upper right corner next to the left of the user account icon and 'Upload' button. A dropdown menu will open. Select 'API' in the dropdown menu.
+  * 4) Follow the newly loaded page to the API documentation
+        * (also accessible here: https://pixabay.com/api/docs/)
+  * 5) On the API documentation page, scroll down to Search Images->parameters->key. Your API key is listed here
+        * (also accessible here: https://pixabay.com/api/docs/#api_key)
 ## How to Download PictoPlots, use your API Keys, and run PictoPlots locally:
   * 1) Download the pmb-picto-plots repository (https://github.com/phillipmblaine/pmb-picto-plots) by cloning or ZIP
   * 2) Open the project in Visual Studio Code from the root of the project folder, pmb-picto-plots-main
@@ -74,12 +74,12 @@
         * Your project root structure and .env file should look similar to the image below:<br /><br />
     <img src='src/assets/picto-plots-local-setup-1.png' width='500'><br /><br />
   * 6) With your api keys in place, it will be possible to run PictoPlots locally: in the root of the project folder pmb-picto-plots-main, open the console (can be done by opening your console: PowerShell, terminal, etc. and navigating to the root of the project folder, or also by: while the project is open in Visual Studio Code, open the console in VSC, often keyboard shortcut bound to Ctrl + `):
-    * a) run in console:
+    * a) Run in console:
       * npm install
-        * (wait for install to finish, a nodule_modules with package install contents inside will generate in the root of the project folder)
-    * b) run in console:
+      * (wait for install to finish, a nodule_modules with package install contents inside will generate in the root of the project folder)
+    * b) Run in console:
       * npm start
-        * (development mode/build)
+      * (development mode/build)
   * 7) A window may automatically open in your default web browser navigated to http://localhost:3000/ where you can finally try out PictoPlots!
         * (also possible to manually navigate to http://localhost:3000/ in a web browser of your choice as long as npm start was ran in console, and is still running)
         * Running PictoPlots locally can be stopped by terminating npm start: in the console it is running from, press Ctrl+C to stop execution, and/or close out the terminal completely)
@@ -117,9 +117,9 @@
 <br />
 
 ## 5) If your guess is correct, you win!
-  * The game ends if your answer is correct (predetermined movie title buttons become disabled, color scheme changes). You may reset the game by clicking the 'Reset PictoPlots' button to reload the page and start over
-  * The 'Reset PictoPlots' button below the predetermined movie title list may also be used to reload the page and start PictoPlots over
- <div style='text-align: center'>
+* The game ends if your answer is correct (predetermined movie title buttons become disabled, color scheme changes). You may reset the game by clicking the 'Reset PictoPlots' button to reload the page and start over
+* The 'Reset PictoPlots' button below the predetermined movie title list may also be used to reload the page and start PictoPlots over
+<div style='text-align: center'>
   <img src='src/assets/how-to-play-picto-plots-5.png' width='500' />
 </div>
 <br />
