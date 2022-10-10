@@ -71,7 +71,7 @@
     * 4) In the .env file, create two new variables:
       * REACT_APP_OMDB_API_KEY
       * REACT_APP_PIXABAY_API_KEY
-    * 5) Set your API keys as values to your variables:
+    * 5) Set your API keys as values to your variables (make sure to save the .env file after adding your API keys as values):
       * REACT_APP_OMDB_API_KEY=yourOmdbApiKey
       * REACT_APP_PIXABAY_API_KEY=youryourPixabayApiKey
       * Your project root structure and .env file should look similar to the image below:<br /><br />
@@ -130,7 +130,7 @@
 <br />
 
 # Features/Ideas/Improvements for Future Versions
-* User Experience, Game Play
+* Game Play, User Experience
   * Difficulty modes: easy, normal/medium, hard, super hard
   * More game modes
     * Possible examples:
