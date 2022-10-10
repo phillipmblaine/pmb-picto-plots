@@ -140,6 +140,7 @@
 <br /><br />
 
 * Front End, User Interface
+  * Buttons, button column slightly off center: find a solution: through Material UI styling, override possibilities, SCSS, styled components, etc.
   * Improved styling:
     * Improve appearance/styling of images: experiment with shadows, transformation/scaling without disrupting/moving other elements, etc.
     * Enriched, expanded, optimized, refined use of existing styling: Material UI and its styling options: emotion, makeStyles, sx, useStyles, themes, etc., styled components, SCSS
