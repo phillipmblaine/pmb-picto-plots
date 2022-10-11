@@ -2,7 +2,7 @@
 
 ## Features
 
-#### Version 1.0, 2022-10-09
+#### Version 1.0, 2022-10-10
 - Single Page Application (SPA)
 - Built with React/JavaScript (ReactJS), Material UI, styled components, SCSS
 - Repository: GitHub
