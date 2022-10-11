@@ -44,7 +44,12 @@
 <br /><br />
 
 ## If running locally
-* <strong>API Keys are required for:</strong>
+* <strong>Node.js is required to run the project locally</strong>
+  * Please install by following: https://nodejs.org/en/download/
+    * Download node.js installer for your OS, open the file and follow installation instructions
+* <strong>A code editor is needed to add/save your api key information to the local project</strong>
+  * I recommend Visual Studio Code: download and install by following: https://code.visualstudio.com/Download
+* <strong>API keys are required for:</strong>
   * <strong>OMDb API</strong>
   * <strong>Pixabay API</strong>
 ## How to acquire OMDb and Pixabay API Keys
@@ -65,6 +70,7 @@
 * 1) Download the pmb-picto-plots repository (https://github.com/phillipmblaine/pmb-picto-plots) by cloning or ZIP
 * 2) Open the project in Visual Studio Code from the root of the project folder, pmb-picto-plots-main
       * If downloaded by ZIP, extract the contents first, then open the project from the root of the project folder, pmb-picto-plots-main
+      * (The clone/download/extracted content pmb-picto-plots-main project folder might be nested inside an initial pmb-picto-plots-main folder)
 * 3) In the root of the pmb-picto-plots-main folder, create a new file, .env
 * 4) In the .env file, create two new variables:
       * REACT_APP_OMDB_API_KEY
