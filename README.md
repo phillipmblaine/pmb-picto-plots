@@ -12,12 +12,10 @@
 - Repository: https://github.com/phillipmblaine/pmb-picto-plots
 
 ## Vercel
-- Deployment: https://vercel.com/phillipmblaine/pmb-picto-plots/39EQCCuBNFvoEWgk3KispZdFcBMq
-
-### Domains:
-- https://pmb-picto-plots.vercel.app/
-- https://pmb-picto-plots-phillipmblaine.vercel.app/
-- https://pmb-picto-plots-git-main-phillipmblaine.vercel.app/
+- Domains:
+  - https://pmb-picto-plots.vercel.app/
+  - https://pmb-picto-plots-phillipmblaine.vercel.app/
+  - https://pmb-picto-plots-git-main-phillipmblaine.vercel.app/
 <br />
 
 # About PictoPlots
