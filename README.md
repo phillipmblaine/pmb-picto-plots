@@ -21,7 +21,7 @@
 <br />
 
 # About PictoPlots
-### PictPlots is a game where the objective is to correctly guess which title out of a list of ten (10) predetermined movie titles is represented by a collection of pictures
+### PictoPlots is a game where the objective is to correctly guess which title out of a list of ten (10) predetermined movie titles is represented by a collection of pictures
 * The movie title that is the correct solution is randomly selected from the list of ten (10) predetermined movie titles
 <br /><br />
 
